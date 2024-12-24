@@ -115,6 +115,14 @@ body {
     justify-content: space-around;
 }
 .block-card {
+  h5{
+    color: rgb(228, 238, 136);
+    font-family: Righteous;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.8px;
+    padding: 8px 0;
+  }
   h4 {
     color: white;
     font-family: Righteous;
