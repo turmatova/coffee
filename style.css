@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  /* font-family: "Righteous", sans-serif; */
+  background: #14110e;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+/* HEADER */
+#header {
+  padding: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 90px;
+  h5 {
+    color: #c99e71;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  a {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+/* HEADER */
+/* HERO */
+#hero {
+  padding: 10%;
+  background-image: url(./img/Photo\ 2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  color: white;
+  h1 {
+    font-family: Righteous;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 93.6px;
+  }
+  p {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 25px 0;
+  }
+  button {
+    padding: 14px 30px;
+    background: #c99e71;
+    color: white;
+  }
+}
+.hero-icon {
+  a {
+    ion-icon {
+      color: white;
+      width: 70px;
+      height: 70px;
+    }
+  }
+  h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+/* HERO */
+/* BLOCK */
+#block {
+  padding: 90px 0;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.block-card {
+  h4 {
+    color: white;
+    font-family: Righteous;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px;
+    padding: 10px 0;
+    a{
+        color: #c99e71;
+    }
+  }
+}
+/* BLOCK */
